@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 
-export default  function useRefDemo(){
+export default  function Demo(){
   const nRef = React.useRef(0);
   const log =()=>setTimeout(()=>console.log(`n:${nRef.current}`),1000);
   const update = useState(null)[1]

@@ -6,8 +6,8 @@ import {
   Link
 } from "react-router-dom";
 
-import useRefDemo from './hooks/useContext-demo/index'
-console.log(useRefDemo)
+import Demo from './hooks/useReducerDemo'
+console.log(Demo)
 export default function App() {
   return (
     <Router>
@@ -63,7 +63,7 @@ function Dashboard() {
   return (
     <div>
       <h2>Dashboard</h2>
-      {useRefDemo()}
+      {Demo()}
     </div>
   );
 }
