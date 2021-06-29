@@ -6,8 +6,7 @@ import {
   Link
 } from "react-router-dom";
 
-import Demo from './hooks/useReducerDemo'
-console.log(Demo)
+import Demo from './hooks/useLayoutEffect-demo'
 export default function App() {
   return (
     <Router>
@@ -27,6 +26,7 @@ export default function App() {
         <Switch>
           <Route exact path="/">
             <Home />
+            <Demo/>
           </Route>
           <Route path="/about">
             <About />
@@ -63,7 +63,6 @@ function Dashboard() {
   return (
     <div>
       <h2>Dashboard</h2>
-      {Demo()}
     </div>
   );
 }
