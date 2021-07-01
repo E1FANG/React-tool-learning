@@ -6,7 +6,7 @@ import {
   Link
 } from "react-router-dom";
 
-import Demo from './hooks/useLayoutEffect-demo'
+import Demo from './hooks/useMemo-demo/whatisMemo'
 export default function App() {
   return (
     <Router>
