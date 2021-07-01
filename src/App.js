@@ -6,7 +6,7 @@ import {
   Link
 } from "react-router-dom";
 
-import Demo from './hooks/useMemo-demo/whatisMemo'
+import Demo from './hooks/forwardRef-demo'
 export default function App() {
   return (
     <Router>
